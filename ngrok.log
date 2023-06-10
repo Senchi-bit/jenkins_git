@@ -1,0 +1,20 @@
+t=2023-06-10T13:17:09+0000 lvl=info msg="no configuration paths supplied"
+t=2023-06-10T13:17:09+0000 lvl=info msg="using configuration at default config path" path=/home/arsen/.config/ngrok/ngrok.yml
+t=2023-06-10T13:17:09+0000 lvl=info msg="open config file" path=/home/arsen/.config/ngrok/ngrok.yml err=nil
+t=2023-06-10T13:17:09+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2023-06-10T13:17:10+0000 lvl=info msg="client session established" obj=tunnels.session obj=csess id=f6f804e6a37f
+t=2023-06-10T13:17:10+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-06-10T13:17:10+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://c33d-185-239-120-226.ngrok-free.app
+t=2023-06-10T13:19:46+0000 lvl=warn msg="failed to open private leg" id=8942b1b63f68 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:19:47+0000 lvl=warn msg="failed to open private leg" id=acbe0a4ff146 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:19:51+0000 lvl=warn msg="failed to open private leg" id=f510a2a57994 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:19:51+0000 lvl=warn msg="failed to open private leg" id=59c635c3bb8b privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:20:51+0000 lvl=warn msg="failed to open private leg" id=70cb10655eda privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:20:52+0000 lvl=warn msg="failed to open private leg" id=d36731bde9f6 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:43:37+0000 lvl=warn msg="failed to open private leg" id=bc4ad1b21314 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T13:43:39+0000 lvl=warn msg="failed to open private leg" id=f2e452e8eee1 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-10T14:10:44+0000 lvl=info msg="received remote stop" obj=tunnels.session
+t=2023-06-10T14:10:44+0000 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=f6f804e6a37f err="reconnecting session closed"
+t=2023-06-10T14:10:44+0000 lvl=info msg="no more state changes" obj=tunnels.session
+t=2023-06-10T14:10:44+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2023-06-10T14:10:44+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
